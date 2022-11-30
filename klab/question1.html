@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+        const item=[
+                {
+                    name:"bike",
+                    price:100},
+                {
+                    name:"TV",
+                    price:200,
+                },
+                {
+                    name:"Album",
+                    price:10
+                },
+                {
+                    name:"Book",
+                    price:5
+                },
+                {
+                    name:"Phone",
+                    price:500
+                },
+                {
+                    name:"computer",
+                    price:1000
+                }
+            ];
+            let cheapitem=item[0].price;
+            for(i=1;i<item.length;i++){
+                if(item[i].price<cheapitem){
+                    cheapitem=item[i].price
+                }
+            }
+            console.log(cheapitem)
+        </script>
+    </body>
+</html>

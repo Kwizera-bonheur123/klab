@@ -1,0 +1,331 @@
+<html>
+    <head>
+        <title></title>
+    </head>'
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        .container1{
+            background-color: rgb(48, 45, 240);
+            width: 50%;
+            height: 100%;
+            text-align: right;
+            position: absolute;
+        }
+        .container2{
+            background-color: rgb(223, 223, 226);
+            width: 50%;
+            height: 100%;
+            text-align: left;
+            margin-left: 50%;
+            position: absolute;
+
+        }
+        .container22{
+            background-color: white;
+            margin-top: 40px;
+            width: 90%;
+            height: 90%;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .container11{
+            background-color: rgb(248, 248, 248);
+            margin-left:80px;
+            margin-top: 40px;
+            width: 90%;
+            height: 90%;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            
+        }
+        .form{
+            top:90px;
+            background-color: rgb(234, 240, 244);
+            width:60%;
+            margin-left: 16%;
+            height: 75%;
+            border-radius: 20px;
+            position:absolute;
+        }
+        
+        .form input{
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        #submit{
+            background-color: blue;
+            color: white;
+            border: white;
+            width: 7cm;
+            height: 1cm;
+        }
+        .form label{
+            font-size: 18px;
+        }
+        .circle1{
+            position: absolute;
+            background-color: rgb(242, 242, 246);
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            width: 710px;
+            height: 600px;
+            margin-top: 30px;
+        }
+        .circle2{
+            position: absolute;
+            background-color: blue;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            width: 400px;
+            height: 330px;
+            margin-top: 65px;
+            margin-left: 80px;
+            border: 70px solid rgb(231, 235, 236);
+        }
+        .rectangle1{
+            position: absolute;
+            width: 440px;
+            height: 280px;
+            background-color: white;
+            /* opacity: 0.4; */
+            margin-top: 25px;
+            border-radius: 20px;
+            margin-left: -20px;
+        }
+        .rectangle2{
+            position: absolute;
+            opacity: 1;
+            width: 400px;
+            height: 240px;
+            background-color: rgb(0, 0, 0);
+            margin-top: 19px;
+            border-radius: 20px;
+            margin-left: 19px;
+        }
+        .para{
+            position: absolute;
+            margin-top: 500px;
+            margin-left: 150px;
+        }
+        .para p{
+            font-size: 22px;
+        }
+        .rectangle2 p{
+            color: white;
+            margin-right: 30px;
+        }
+        .rectangle21{
+            border-radius: 15px;
+            margin-left: 210px;
+            background-color: white;
+            width: 180px;
+            height: 80px;
+        }
+        .rectangle22{
+            border-radius: 15px;
+            margin-left: 210px;
+            background-color: white;
+            width: 180px;
+            height: 80px;
+        }
+        .rectangle21 h5{
+            position: absolute;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        .rectangle21 h2{
+            position: absolute;
+            margin-left: 5px;
+        }
+        .petcircle{
+            width: 25px;
+            height: 25px;
+            background-color: blue;
+            position: absolute;
+            margin-left: 150px;
+            border-radius: 50%;
+        }
+        .rectangle22 h5{
+            position: absolute;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        .rectangle22 h2{
+            position: absolute;
+            margin-left: 5px;
+        }
+        .head6{
+            display: flex;
+            padding: 30px;
+            justify-content: space-between;
+        }
+        #ten{
+            background-color: rgb(156, 255, 156);
+            font-weight: bold;
+            width: 30px;
+            text-align: center;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .containerrectangle2{
+            width: 50%px;
+            height: 30px;
+            background-color: brown;
+        }
+        .left{
+            position: absolute;
+        }
+        .div23{
+            background-color: rgb(255, 255, 255);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border-top: 30px solid gray;
+            border-left:30px solid gray;
+            border-bottom: 30px solid hsl(348, 91%, 58%);
+            border-right: 30px solid blue;
+            margin-left: 20px;
+
+        }
+        .div23 h4{
+            position: absolute;
+            margin-left: 17px;
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        .bottom{
+            margin-left: 5px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .super{
+            color: blue;
+            background-color: rgb(214, 186, 240);
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .great{
+            color: green;
+            background-color: rgb(153, 250, 178);
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .purpose{
+            color: rgb(246, 41, 51);
+            background-color: rgb(251, 139, 165);
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .lines{
+            margin-top: 590px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 150px;
+            margin-right: 170px;
+            width: 390px;
+        }
+        .line1{
+            height: 10px;
+            width: 120px;
+            background-color: blue;
+            border-radius: 4px;
+        }
+        .line2{
+            height: 10px;
+            width: 120px;
+            background-color: gray;
+            border-radius: 4px;
+        }
+        .line3{
+            height: 10px;
+            width: 120px;
+            background-color: gray;
+            border-radius: 4px;
+        }
+        .petcircleb{
+            width: 25px;
+            height: 25px;
+            background-color: rgb(204, 64, 102);
+            position: absolute;
+            margin-left: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="container1">
+                <div class="container11">
+                    <div class="circle1">
+                        <div class="circle2">
+                            <div class="rectangle1">
+                                <div class="rectangle2">
+                                    <div class="left"><p>Stastics</p>
+                                    <div class="div23"><h4>23</h4></div>
+                                    <div class="bottom">
+                                        <div class="super">Super</div>
+                                        <div class="great">Great</div>
+                                        <div class="purpose">Purpose</div>
+                                    </div>
+                                    </div>
+                                    <p>show more</p>
+                                    <div class="rectangle21">
+                                        <h5>Total hours</h5><br>
+                                        <h2>1,240</h2>
+                                        <div class="petcircle"></div>
+                                        </div><br>
+                                        <div class="rectangle22">
+                                        <h5>Budget</h5>
+                                        <h2>$2,500</h2>
+                                        <div class="petcircleb"></div>
+                                        <div class="head6">
+                                        <h6 id="ten">10%</h6>
+                                        <h6 class="since">since last month</h6></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="para"><p>Let's see what we have new, check it out! so<br>maybe write here something more.</p></div>
+                        <div class="lines">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="container22">
+                    <div class="form">
+                    <center>
+                    <h1>Create your account</h1>
+                    <h2>it's free and easy</h2>
+                    <label>Your name</label><br>
+                    <input type="text" id="text" placeholder="Enter your name"><br><br>
+                    <label>E-mail or phone number</label><br>
+                    <input type="text" id="text" placeholder="tpye your e-mail or phone number"><br><br>
+                    <label>password</label><br>
+                    <input type="text" id="text" placeholder="type your password"><br><br>
+                    <label>must be 8 character at least</label><br><br>
+                    <input type="checkbox">By creating an account means you agree to the terms<br> and conditions and our privacy police <br><br>
+                    <input type="submit" id="submit" value="Register">
+                    <p id="or">or do it via other accounts</p>
+                    </center>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
